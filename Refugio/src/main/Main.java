@@ -56,14 +56,12 @@ public class Main {
 				int gaPe = sc.nextInt();	
 				
 				if  (gaPe == 1) {
-					System.out.println("Los gatos son " + g.toString());
 					for(int i= 0; i<g.size(); i++) {
-						g.get(i);
+						System.out.println(g.get(i));
 					}					
 				}else if (gaPe == 2) {
-					System.out.println("Los perros son " + p.toString());
 					for(int i= 0; i<p.size(); i++) {
-						p.get(i);
+						System.out.println(p.get(i));
 						}
 					}				
 				}			
@@ -73,3 +71,4 @@ public class Main {
 		}		
 	}
 }
+
